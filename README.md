@@ -4,7 +4,8 @@ If you want to monitor your page's performance, eg. ttfb, the start of page requ
 
 ## Usage
 
-### ` npm i page-performance-monitor`
+
+` npm i page-performance-monitor`
 
 
 ## Examples
