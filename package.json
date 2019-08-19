@@ -1,0 +1,29 @@
+{
+  "name": "page-performance-monitor",
+  "version": "1.0.1",
+  "description": "page performance record, get performance timing to log",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rollup --config rollup.config.js --watch",
+    "build": "rollup --config rollup.config.js",
+    "test": "rollup --config rollup.config.js --output dist/bundles.js --format iife",
+    "mocha-test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "Tiffany",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@baidu/rollup-plugin-commonjs": "1.0.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^4.2.0",
+    "jsdom": "^15.1.1",
+    "mocha": "^6.2.0",
+    "rollup": "^0.59.4",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify-es": "0.0.1",
+    "rollup-watch": "^4.3.1"
+  }
+}
