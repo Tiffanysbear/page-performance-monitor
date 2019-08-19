@@ -1,10 +1,10 @@
 ## Introduction
-    If you want to monitor your page's performance, eg. ttfb, the start of page request, the time of request. Performance API is a good choice for u.
+If you want to monitor your page's performance, eg. ttfb, the start of page request, the time of request. Performance API is a good choice for u.
 
 
 ## Usage
 
-` npm i page-performance-monitor`
+### ` npm i page-performance-monitor`
 
 
 ## Examples
