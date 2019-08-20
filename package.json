@@ -1,6 +1,6 @@
 {
   "name": "page-performance-monitor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "page performance record, get performance timing to log",
   "main": "dist/index.js",
   "scripts": {
