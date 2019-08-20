@@ -42,7 +42,7 @@ var getPerformanceTiming = function () {
         ttfb: t.responseStart - ns,
         requestTime: t.responseEnd - t.requestStart
     };
-    return times;
+    return Object.assign(times, t);
 };
 module.exports = {
     sendPerformanceLog: sendPerformanceLog,

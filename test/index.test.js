@@ -1,6 +1,6 @@
 /**
  * @file: index.test.js
- * @author: zhoufang04
+ * @author: tiffany
  * @description: mocha + chai test
  */
 

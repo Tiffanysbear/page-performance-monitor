@@ -1,6 +1,8 @@
 ## Introduction
 If you want to monitor your page's performance, eg. ttfb, the start of page request, the time of request. Performance API is a good choice for u.
 
+![](https://github.com/Tiffanysbear/accumulation/raw/master/image/perf-1.png)
+
 
 ## Usage
 
