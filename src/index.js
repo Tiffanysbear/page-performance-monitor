@@ -1,20 +1,20 @@
 /**
  * @file: index.js
  * @author: Tiffany
- * @description: 页面性能监控
+ * @description: page performance monitor
  */
 'use strict';
 /**
  *
- * @param {Object} opt 参数-额外增加的打点参数
- * @param {function} sendLogFn 打点方法，可能会根据业务的不同，传递不一样的打点参数
+ * @param {Object} opt param - could add other params
+ * @param {function} sendLogFn - log function, aimed to send log to server
  * @return {Object}
  */
 
 var sendPerformanceLog = function (opt, sendLogFn) {
     var performance = window.performance;
     if (!performance) {
-        // 当前浏览器不支持 performance
+        // not suport performance
         return {msg: 'not suport performance'};
     }
     var t = performance.timing || {};
@@ -32,7 +32,7 @@ var sendPerformanceLog = function (opt, sendLogFn) {
 var getPerformanceTiming = function () {
     var performance = window.performance;
     if (!performance) {
-        // 当前浏览器不支持 performance
+        // not suport performance
         return {msg: 'not suport performance'};
     }
     var t = performance.timing || {};
@@ -44,6 +44,7 @@ var getPerformanceTiming = function () {
     };
     return Object.assign(times, t);
 };
+
 module.exports = {
     sendPerformanceLog: sendPerformanceLog,
     getPerformanceTiming: getPerformanceTiming
